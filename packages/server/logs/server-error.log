@@ -1,0 +1,120 @@
+2024-03-15 02:45:38 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:45:38 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:50:55 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:50:55 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:51:46 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1190:13
+2024-03-15 02:51:46 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1190:13
+2024-03-15 02:52:00 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:52:00 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:52:34 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:52:34 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:56:45 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:56:45 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:59:15 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:00:29 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:01:53 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:04:00 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:12:24 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:15:55 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)

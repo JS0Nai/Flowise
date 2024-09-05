@@ -1,0 +1,160 @@
+2024-03-14 18:18:32 [INFO]: Starting Flowise...
+2024-03-14 18:18:32 [INFO]: ⚡️ [server]: Flowise Server is listening at 3000
+2024-03-14 18:18:32 [INFO]: 📦 [server]: Data Source is being initialized!
+2024-03-14 18:18:34 [INFO]: 📦 [server]: Data Source has been initialized!
+2024-03-14 18:26:56 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2024-03-14 18:27:21 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIAssistant
+2024-03-14 18:27:21 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2024-03-15 02:43:54 [INFO]: ⬆️ POST /api/v1/chatflows
+2024-03-15 02:45:38 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:45:38 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:45:38 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:46:41 [INFO]: 🖊 PUT /api/v1/chatflows/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:48:16 [INFO]: ⬆️ POST /api/v1/credentials
+2024-03-15 02:50:07 [INFO]: ⬆️ POST /api/v1/credentials
+2024-03-15 02:50:55 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:50:55 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:50:55 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:51:46 [INFO]: ⬆️ POST /api/v1/vector/upsert/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:51:46 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1190:13
+2024-03-15 02:51:46 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1190:13
+2024-03-15 02:52:00 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:52:00 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:52:00 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:52:34 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:52:34 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:52:34 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:56:45 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:56:45 [ERROR]: The client configuration must have required property: apiKey.
+PineconeArgumentError: The client configuration must have required property: apiKey.
+    at /Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/validator.js:239:19
+    at Pinecone._validateConfig (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:537:104)
+    at new Pinecone (/Users/jlm1/Flowise/node_modules/.pnpm/@pinecone-database+pinecone@2.1.0/node_modules/@pinecone-database/pinecone/dist/pinecone.js:105:14)
+    at Pinecone_VectorStores.upsert (/Users/jlm1/Flowise/packages/components/dist/nodes/vectorstores/Pinecone/Pinecone.js:20:32)
+    at async buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:265:17)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:56:45 [ERROR]: [server]: Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+Error: PineconeArgumentError: The client configuration must have required property: apiKey.
+    at buildFlow (/Users/jlm1/Flowise/packages/server/dist/utils/index.js:326:19)
+    at async App.upsertVector (/Users/jlm1/Flowise/packages/server/dist/index.js:1693:13)
+    at async /Users/jlm1/Flowise/packages/server/dist/index.js:1193:13
+2024-03-15 02:56:55 [INFO]: 🖊 PUT /api/v1/chatflows/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:59:03 [INFO]: ⬆️ POST /api/v1/prediction/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 02:59:03 [INFO]: [server]: Request originated from undefined
+2024-03-15 02:59:04 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b added into ChatflowPool
+2024-03-15 02:59:15 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:00:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:00:29 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:01:35 [INFO]: 🖊 PUT /api/v1/chatflows/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:01:35 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b updated inSync=false in ChatflowPool
+2024-03-15 03:01:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:01:49 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b added into ChatflowPool
+2024-03-15 03:01:53 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:02:58 [INFO]: 🖊 PUT /api/v1/chatflows/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:02:58 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b updated inSync=false in ChatflowPool
+2024-03-15 03:03:02 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:03:02 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b added into ChatflowPool
+2024-03-15 03:03:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:03:28 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b added into ChatflowPool
+2024-03-15 03:04:00 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:12:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:12:24 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:15:32 [INFO]: ⬆️ POST /api/v1/credentials
+2024-03-15 03:15:35 [INFO]: 🖊 PUT /api/v1/chatflows/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:15:35 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b updated inSync=false in ChatflowPool
+2024-03-15 03:15:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:15:48 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b added into ChatflowPool
+2024-03-15 03:15:55 [ERROR]: [server]: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (/Users/jlm1/Flowise/node_modules/.pnpm/ioredis@5.3.2/node_modules/ioredis/built/redis/event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15 03:17:51 [INFO]: 🖊 PUT /api/v1/chatflows/9b1cc85e-bf6a-4cdc-a585-091c4e37864b
+2024-03-15 03:17:51 [INFO]: [server]: Chatflow 9b1cc85e-bf6a-4cdc-a585-091c4e37864b updated inSync=false in ChatflowPool

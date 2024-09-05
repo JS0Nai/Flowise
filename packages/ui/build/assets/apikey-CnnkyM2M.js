@@ -1,0 +1,1 @@
+import{b as t}from"./useApi-DNUtCWFw.js";const a=()=>t.get("/apikey"),i=e=>t.post("/apikey",e),o=(e,p)=>t.put(`/apikey/${e}`,p),s=e=>t.delete(`/apikey/${e}`),n={getAllAPIKeys:a,createNewAPI:i,updateAPI:o,deleteAPI:s};export{n as a};

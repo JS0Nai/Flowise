@@ -1,46 +1,67 @@
-# editor
-.idea
-.vscode
+# ... existing entries ...
 
-# dependencies
-**/node_modules
-**/package-lock.json
-**/yarn.lock
+# Node.js specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-## logs
-**/logs
-**/*.log
+# Optional npm cache directory
+.npm
 
-## build
-**/dist
-**/build
+# Optional eslint cache
+.eslintcache
 
-## temp
-**/tmp
-**/temp
+# Optional REPL history
+.node_repl_history
 
-## test
-**/coverage
+# Output of 'npm pack'
+*.tgz
 
-# misc
-.DS_Store
+# Yarn Integrity file
+.yarn-integrity
 
-## env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env
+# dotenv environment variables file (in addition to existing .env entries)
+.env.*
 
-## turbo
-.turbo
+# Next.js build output
+.next
 
-## secrets
-**/*.key
-**/api.json
+# Nuxt.js build / generate output
+.nuxt
+dist
 
-## uploads
-**/uploads
+# Gatsby files
+.cache/
 
-## compressed
-**/*.tgz
+# VuePress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# IDE specific (in addition to existing entries)
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific (in addition to existing entries)
+Thumbs.db
+ehthumbs.db
+Desktop.ini

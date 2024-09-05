@@ -1,0 +1,8 @@
+
+> flowise-components@1.6.3 build /Users/jlm1/Flowise/packages/components
+> tsc && gulp
+
+[18:17:49] Requiring external module ts-node/register
+[18:17:50] Using gulpfile ~/Flowise/packages/components/gulpfile.ts
+[18:17:50] Starting 'default'...
+[18:17:50] Finished 'default' after 89 ms
